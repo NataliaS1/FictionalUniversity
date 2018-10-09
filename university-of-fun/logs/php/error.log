@@ -1,0 +1,142 @@
+[26-Aug-2018 22:08:15 UTC] PHP Parse error:  syntax error, unexpected 'funcion' (T_STRING) in /app/public/wp-content/themes/uni-theme/index.php on line 2
+[26-Aug-2018 22:08:57 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /app/public/wp-content/themes/uni-theme/index.php on line 2
+[26-Aug-2018 22:55:03 UTC] PHP Parse error:  syntax error, unexpected '<' in /app/public/wp-content/themes/uni-theme/index.php on line 5
+[06-Oct-2018 21:29:55 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/uni-theme/index.php on line 10
+[07-Oct-2018 04:57:49 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/uni-theme/page.php on line 20
+[07-Oct-2018 04:57:54 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/uni-theme/page.php on line 20
+[07-Oct-2018 05:00:33 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/uni-theme/page.php on line 23
+[07-Oct-2018 05:01:42 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/uni-theme/page.php on line 23
+[07-Oct-2018 05:01:43 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/uni-theme/page.php on line 23
+[07-Oct-2018 05:01:44 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/uni-theme/page.php on line 23
+[07-Oct-2018 05:02:14 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/uni-theme/page.php on line 23
+[07-Oct-2018 05:02:54 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/uni-theme/page.php on line 23
+[07-Oct-2018 05:07:22 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/uni-theme/page.php on line 23
+[07-Oct-2018 05:08:39 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/uni-theme/page.php on line 23
+[07-Oct-2018 05:08:44 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/uni-theme/page.php on line 23
+[07-Oct-2018 05:08:50 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/uni-theme/page.php on line 23
+[07-Oct-2018 05:09:59 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/uni-theme/page.php on line 22
+[07-Oct-2018 05:10:04 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/uni-theme/page.php on line 22
+[07-Oct-2018 05:11:35 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/uni-theme/page.php on line 22
+[07-Oct-2018 12:35:28 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/uni-theme/page.php on line 33
+[07-Oct-2018 12:48:09 UTC] PHP Parse error:  syntax error, unexpected ''sort_column'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/uni-theme/page.php on line 40
+[07-Oct-2018 12:54:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function langauge_attributes() in /app/public/wp-content/themes/uni-theme/header.php:2
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/uni-theme/page.php(2): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/uni-theme/header.php on line 2
+[07-Oct-2018 12:54:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function langauge_attributes() in /app/public/wp-content/themes/uni-theme/header.php:2
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/uni-theme/page.php(2): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/uni-theme/header.php on line 2
+[07-Oct-2018 12:54:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function langauge_attributes() in /app/public/wp-content/themes/uni-theme/header.php:2
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/uni-theme/page.php(2): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/uni-theme/header.php on line 2
+[07-Oct-2018 12:54:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function langauge_attributes() in /app/public/wp-content/themes/uni-theme/header.php:2
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/uni-theme/page.php(2): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/uni-theme/header.php on line 2
+[08-Oct-2018 21:15:57 UTC] PHP Parse error:  syntax error, unexpected ''add_new_item'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/mu-plugins/university-post-types.php on line 8
+[08-Oct-2018 21:15:58 UTC] PHP Parse error:  syntax error, unexpected ''add_new_item'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/mu-plugins/university-post-types.php on line 8
+[08-Oct-2018 21:16:00 UTC] PHP Parse error:  syntax error, unexpected ''add_new_item'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/mu-plugins/university-post-types.php on line 8
+[08-Oct-2018 21:26:05 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /app/public/wp-content/themes/uni-theme/front-page.php on line 19
+[08-Oct-2018 21:26:08 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /app/public/wp-content/themes/uni-theme/front-page.php on line 19
+[08-Oct-2018 22:25:33 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/uni-theme/archive-event.php on line 41
+[08-Oct-2018 22:33:30 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /app/public/wp-content/mu-plugins/university-post-types.php on line 4
+[08-Oct-2018 23:11:26 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (26/10/2018) at position 0 (2): Unexpected character in /app/public/wp-content/themes/uni-theme/front-page.php:29
+Stack trace:
+#0 /app/public/wp-content/themes/uni-theme/front-page.php(29): DateTime->__construct('26/10/2018')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/uni-theme/front-page.php on line 29
+[08-Oct-2018 23:11:59 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (26/10/2018) at position 0 (2): Unexpected character in /app/public/wp-content/themes/uni-theme/front-page.php:29
+Stack trace:
+#0 /app/public/wp-content/themes/uni-theme/front-page.php(29): DateTime->__construct('26/10/2018')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/uni-theme/front-page.php on line 29
+[08-Oct-2018 23:12:48 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (26/10/2018) at position 0 (2): Unexpected character in /app/public/wp-content/themes/uni-theme/front-page.php:29
+Stack trace:
+#0 /app/public/wp-content/themes/uni-theme/front-page.php(29): DateTime->__construct('26/10/2018')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/uni-theme/front-page.php on line 29
+[08-Oct-2018 23:13:21 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (26/10/2018) at position 0 (2): Unexpected character in /app/public/wp-content/themes/uni-theme/front-page.php:29
+Stack trace:
+#0 /app/public/wp-content/themes/uni-theme/front-page.php(29): DateTime->__construct('26/10/2018')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/uni-theme/front-page.php on line 29
+[08-Oct-2018 23:15:28 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (26/10/2018) at position 0 (2): Unexpected character in /app/public/wp-content/themes/uni-theme/front-page.php:31
+Stack trace:
+#0 /app/public/wp-content/themes/uni-theme/front-page.php(31): DateTime->__construct('26/10/2018')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/uni-theme/front-page.php on line 31
+[08-Oct-2018 23:15:51 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (26/10/2018) at position 0 (2): Unexpected character in /app/public/wp-content/themes/uni-theme/front-page.php:31
+Stack trace:
+#0 /app/public/wp-content/themes/uni-theme/front-page.php(31): DateTime->__construct('26/10/2018')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/uni-theme/front-page.php on line 31
+[08-Oct-2018 23:18:27 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (26/10/2018) at position 0 (2): Unexpected character in /app/public/wp-content/themes/uni-theme/front-page.php:31
+Stack trace:
+#0 /app/public/wp-content/themes/uni-theme/front-page.php(31): DateTime->__construct('26/10/2018')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/uni-theme/front-page.php on line 31
+[08-Oct-2018 23:43:33 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/uni-theme/front-page.php on line 28
+[09-Oct-2018 01:00:51 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/uni-theme/functions.php on line 21
+[09-Oct-2018 01:00:52 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/uni-theme/functions.php on line 21
+[09-Oct-2018 01:05:19 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_adjust_queries' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[09-Oct-2018 01:05:19 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_adjust_queries' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[09-Oct-2018 01:07:24 UTC] PHP Fatal error:  Cannot redeclare university_files() (previously declared in /app/public/wp-content/themes/uni-theme/functions.php:6) in /app/public/wp-content/themes/uni-theme/functions.php on line 40
+[09-Oct-2018 01:07:32 UTC] PHP Fatal error:  Cannot redeclare university_files() (previously declared in /app/public/wp-content/themes/uni-theme/functions.php:6) in /app/public/wp-content/themes/uni-theme/functions.php on line 40
+[09-Oct-2018 01:07:39 UTC] PHP Fatal error:  Cannot redeclare university_files() (previously declared in /app/public/wp-content/themes/uni-theme/functions.php:6) in /app/public/wp-content/themes/uni-theme/functions.php on line 40
+[09-Oct-2018 01:07:40 UTC] PHP Fatal error:  Cannot redeclare university_files() (previously declared in /app/public/wp-content/themes/uni-theme/functions.php:6) in /app/public/wp-content/themes/uni-theme/functions.php on line 40
+[09-Oct-2018 01:08:39 UTC] PHP Fatal error:  Cannot redeclare university_files() (previously declared in /app/public/wp-content/themes/uni-theme/functions.php:6) in /app/public/wp-content/themes/uni-theme/functions.php on line 35
+[09-Oct-2018 01:08:41 UTC] PHP Fatal error:  Cannot redeclare university_files() (previously declared in /app/public/wp-content/themes/uni-theme/functions.php:6) in /app/public/wp-content/themes/uni-theme/functions.php on line 35
+[09-Oct-2018 02:41:29 UTC] PHP Parse error:  syntax error, unexpected '>' in /app/public/wp-content/themes/uni-theme/functions.php on line 17
+[09-Oct-2018 02:42:22 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-content/themes/uni-theme/functions.php on line 19
+[09-Oct-2018 02:43:19 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-content/themes/uni-theme/functions.php on line 19
